@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No.7</title>
+</head>
+<body>
+    <h1>Chapter #7 -Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details:</legend>
+            <p>
+              Name:
+            <input id="fn" type="text" name="firstname" size="15" maxlength="30"/>
+            </p>
+            <p>
+                Email:
+            <input id="em" type="email" name="email" size="15"/>
+            </p>
+        </fieldset>    
+            <br/> 
+            <fieldset>
+                <legend>Your Reviews:</legend>
+                <p>
+                    How did you hear about us?
+                    <select name="socailmedia">
+                        <option name="google">Goolge</option>
+                        <option name="facebook">facebook</option>
+                        <option name="twiter">twiter</option>
+                        <option name="instagram">instagram</option>
+                    </select>
+                </p>
+                <p>
+                    Would you visit again?
+                    <br/>
+                    <input id="y" type="radio" name="search"value="visit"/>
+                    <label for="y">Yes</label>
+                    <input id="n" type="radio" name="search" value="visit"/>
+                    <label for="n">No</label>
+                    <input id="m" type="radio" name="search" value="visit" />
+                    <label for="m">Maybe</label>
+                </p>
+                <p>
+                    Comments:
+                    <br/>
+                    <textarea name="comments" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="sign" value="up" /> Sign me for email updates
+                    <br/>
+                    <input type="submit" value="Submit reviews"/>
+                </p>
+            </fieldset>
+
+        
+    </form>
+</body>
+</html>
