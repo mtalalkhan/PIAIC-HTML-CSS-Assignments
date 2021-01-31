@@ -1,0 +1,73 @@
+#wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.menu-item {
+    width: 75%
+}
+.menu-item {
+    float: right;
+    list-style: none;
+}
+.menu-area {
+    overflow: hidden;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+h2   {
+    color:saddlebrown;
+}
+
+.page1 {
+    background-color: gray;
+}
+
+.page2 {
+    background-color: paleturquoise ;
+}
+
+.page3 {
+    background-color:  yellow;
+}
+
+.page4 {
+    background-color: teal;
+}
+
+.page5 {
+    background-color: lightblue;
+}
+
+.page6 {
+    background-color: lightgrey;
+}
+
+.page7 {
+    background-color: rebeccapurple;
+}
+
+.page8 {
+    background-color: bisque ;
+}
+
+.page9 {
+    background-color: deepskyblue;
+}
+
+.p1 {
+    text-align: right;
+    padding: 50px;   
+}
